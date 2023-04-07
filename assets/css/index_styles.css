@@ -1,0 +1,248 @@
+            /* Censo - Form   --version 1.0 */
+/* William Samir Peña Ortega  [waamirdev@gmail.com] 6th April, 2023 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #f5f6f7;
+    --dark-blue: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+    --reset-color: #800202;
+    --focus_color: rgb(134, 12, 148);
+    --focus_bkgd: rgb(232, 219, 233);
+}
+
+body {
+    padding: 1em;
+    width: 100%;
+    min-width: 770px;
+    height: 100vh;
+    background-image: linear-gradient(115deg, rgba(50, 32, 180, .9), rgba(136, 136, 206, 0.9)), url(../img/background-img-php.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--main-color);
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#title,
+#description {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+#title {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1em auto 0.5em auto;
+    line-height: 1.2;
+}
+
+#description {
+    margin-bottom: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 300px;
+    padding: 40px;
+    background: var(--dark-blue);
+    border-radius: 0.25rem;
+}
+
+.form-containers {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label{
+    display: block;
+}
+
+label,
+.p_text {
+    font-size: 1.125rem;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    min-height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #495057;
+    font-size: 1.125rem;
+}
+
+textarea{
+    padding: 10px;
+    line-height: 1.5;
+    resize: none;
+}
+
+input,
+select{
+    padding: 6px 12px;
+    font-size: 1.125rem;
+    color: #495057;
+}
+
+.label-input_check_radio{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.inline{
+    width: unset;
+    margin: 0;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+
+.input__radio{
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.input__checkbox{
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.p_text{
+    margin-bottom: 10px;
+}
+
+/* comentarios y sugerencias */
+#comments{
+    min-height: 120px;
+    padding: 10px;
+}
+
+#enf_expli_container{
+    display: none;
+}
+
+#alergia_expli_container{
+    display: none;
+}
+
+#btns_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+button[type="submit"], 
+button[type="reset"]{
+    width: 48%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 12px;
+    cursor: pointer;
+    min-height: 38px;
+    border-radius: 0.25rem;
+    font-size: 1.125rem;
+} 
+
+button[type="submit"]{
+    color: var(--main-color);
+    background: var(--color-green);
+}
+
+button[type="reset"]{
+    color: var(--main-color);
+    background-color: var(--reset-color);
+}
+
+/* Input classes to add */
+
+.cell_error,
+.id_error{
+    border: 1.5px solid #f00;
+    background: rgb(255, 230, 230);
+    color: #f00;
+}
+
+/* Error msg number cell inputs  */
+
+.error{
+    color: rgb(255, 225, 0);
+}
+
+.hide_error_num_msg,
+.hide_error_id_msg{
+    display: none;
+}
+
+.show_error_num_msg,
+.show_error_id_msg{
+    display: flex;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(30, 9, 79);
+    text-align: center;
+}
+
+#footer_content{
+    display: block;
+    width: 75%;
+    margin: 5px auto;
+}
+
+#social_media_container{
+    width: auto;
+    height: 30px;
+    text-align: right;
+}
+
+.social_logos{
+    width: 30px;
+    height: 100%;
+    margin: 3px;
+}
+
+#copyright_container{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 568px) {
+    #title {
+        margin-top: 2em;
+    }
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus{
+    color: var(--focus_color);
+    background-color: var(--focus_bkgd);
+}

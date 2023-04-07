@@ -1,0 +1,64 @@
+            /* Censo - Form   --version 1.0 */
+/* William Samir Peña Ortega  [waamirdev@gmail.com] 6th April, 2023 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #f5f6f7;
+    --dark-blue: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+    --reset-color: #800202;
+}
+
+.admin_form_btn{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 12px;
+    cursor: pointer;
+    min-height: 38px;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    color: var(--main-color);
+    background: var(--color-green);
+    transition: all 300ms;
+}
+
+.admin_form_btn:hover{
+    transform: scale(1.12);
+}
+
+#admin_form_btn_icon{
+    display: none;
+    transform: scale(.7);
+}
+
+@media only screen and (max-width: 1010px) {
+    #admin_form_btn_text{
+        display: none;
+    }
+    
+    #admin_form_btn_icon{
+        display: block;
+        transform: scale(.7);
+    }
+}
+
+@media only screen and (max-width: 816px) {
+    
+    .admin_form_btn{
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+}
