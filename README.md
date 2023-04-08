@@ -7,7 +7,7 @@
         CENSO - FORM - 2504209
         <img style="width: 25px;" src="assets/img/readme/Form-Icon-image.png" alt="Form Icon">
     </div>
-    <img src="assets/img/readme/Form Screenshot.JPG" alt="Form Screenshot" style="border-radius: 10px;">
+    <img src="assets/img/readme/Form Screenshot.JPG" alt="Form Screenshot" style="border-radius: 10px; margin-top: 15px;">
 </h1>
 
 <p align="center">
@@ -99,7 +99,7 @@ Examples:
 
 When a input marked as required is not filled in this message will be shown.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Empty-Error.jpg" alt="Empty Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/Empty-Error.JPG" alt="Empty Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -109,7 +109,7 @@ When a input marked as required is not filled in this message will be shown.
 
 When the email input field does not meet the email format requierments (myemail@domain.com) this message will be shown.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Email-Error.jpg" alt="Email Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/Email-Error.JPG" alt="Email Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -119,7 +119,7 @@ When the email input field does not meet the email format requierments (myemail@
 
 The least quantity of digits in the ID field is 8, if the ID entered has less digits this message will be shown. 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/ID-Error.jpg" alt="ID Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/ID-Error.JPG" alt="ID Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -129,7 +129,7 @@ The least quantity of digits in the ID field is 8, if the ID entered has less di
 
 In the Mobile Phone Number input field can be entered Landline numbers (7 digits) and Mobile Phone Numbers (10 digits), any different quantity of digits will display this message.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/MPN-Error.jpg" alt="Mobile Phone Number Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/MPN-Error.JPG" alt="Mobile Phone Number Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
 
 <br>
@@ -148,7 +148,7 @@ Here are the possible messages:
 
 This message will appear when the register successfully stored the apprentice data in the database.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/success.jpg" alt="Success Msg" style="border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/success.JPG" alt="Success Msg" style="border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -158,7 +158,7 @@ This message will appear when the register successfully stored the apprentice da
 
 This messages will be shown when the apprentice's ID number is already registered in the database and will not alterate the record that's already in the database.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/double-register.jpg" alt="Double Register Msg" style="border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/double-register.JPG" alt="Double Register Msg" style="border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -168,7 +168,7 @@ This messages will be shown when the apprentice's ID number is already registere
 
 This messages will be displayed when an error occurs at the moment of the execution of the SQL query.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Error.jpg" alt="Error Msg" style="border-radius: 10px;">
+<img src="assets/img/readme/Error_SS_Form/Error.JPG" alt="Error Msg" style="border-radius: 10px;">
 </div>
 <br>
 <br>
@@ -183,7 +183,7 @@ In this case the aplication will display the Login Page where the Administrator 
 <br>
 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Login-SS.jpg" alt="Login Screenshot">
+<img src="assets/img/readme/Error_SS_Form/Login-SS.JPG" alt="Login Screenshot">
 </div>
 
 These data are provided by the Owner of this program and can be changed by the same person.
@@ -198,7 +198,7 @@ When trying to log into the Administrators section, two errors can occur, which 
 This message will appear when the user name or password entered are different than the ones registered in the database.
 
 <div align="center" >
-<img src="assets/img/readme/Error_SS_Form/Login-Error-1.jpg" alt="Login-Error-1">
+<img src="assets/img/readme/Error_SS_Form/Login-Error-1.JPG" alt="Login-Error-1">
 </div>
 <br>
 <br>
@@ -209,7 +209,7 @@ This message will appear when the user name or password entered are different th
 This error will be shown when there's been an error during the execution of the query or during the connection to the database.
 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Login-Error-2.jpg" alt="Login-Error-2">
+<img src="assets/img/readme/Error_SS_Form/Login-Error-2.JPG" alt="Login-Error-2">
 </div>
 <br>
 <br>
@@ -229,7 +229,7 @@ In this space the administrator user will be able to keep track and manage the r
 <br>
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/apprentice-section.jpg" alt="Apprendice Section" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/apprentice-section.JPG" alt="Apprendice Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Read Section` 
@@ -238,13 +238,13 @@ In this space the administrator user will be able to keep track and manage the r
 This section looks like this because no records have been searched.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/read-section.jpg" alt="Read 1 Section" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/read-section.JPG" alt="Read 1 Section" style="margin-bottom: 15px;">
 </div>
 
 Now, one record has been searched and the information is being displayed on.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/read-section-data.jpg" alt="Read 2 Section" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/read-section-data.JPG" alt="Read 2 Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Update Section` 
@@ -253,20 +253,20 @@ Now, one record has been searched and the information is being displayed on.
 This section looks like this because no records have been searched.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/update-section.jpg" alt="Update 1 Section" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/update-section.JPG" alt="Update 1 Section" style="margin-bottom: 15px;">
 </div>
 
 Now, one record has been searched and the information is being displayed on.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/update-section-data.jpg" alt="Update 2 Section" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/update-section-data.JPG" alt="Update 2 Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Delete Record` 
 <br>
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/delete-confirmation.jpg" alt="Delete Confirmation Msg" style="margin-bottom: 15px;">
+    <img src="assets/img/readme/CRUD/delete-confirmation.JPG" alt="Delete Confirmation Msg" style="margin-bottom: 15px;">
 </div>
 
 # :computer: Tecnologies
