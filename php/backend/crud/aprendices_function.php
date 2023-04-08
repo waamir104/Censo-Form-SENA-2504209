@@ -52,7 +52,7 @@ function aprendices_content()
                             <?php echo $register['tipo_doc']; ?>
                             </td>
                             <td>
-                                <a href="http://localhost/formulario-censo/php/backend/crud/redirect_read.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" id="num_doc_anchor">
+                                <a href="http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/backend/crud/redirect_read.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" id="num_doc_anchor">
                                 <?php echo $register['num_doc_apr']; ?>
                                 </a>
                             
@@ -61,12 +61,12 @@ function aprendices_content()
                             <?php echo $register['nom_completo']; ?>
                             </td>
                             <td>
-                                <a href="http://localhost/formulario-censo/php/backend/crud/redirect_update.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" class="crud_anchor_opt">
+                                <a href="http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/backend/crud/redirect_update.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" class="crud_anchor_opt">
                                     <img src="../assets/img/crud_icons/edit.png" alt="edit_icon" class="crud_opt_icons">
                                 </a>
                             </td>
                             <td>
-                                <a href="http://localhost/formulario-censo/php/backend/crud/redirect_delete.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" class="crud_anchor_opt">
+                                <a href="http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/backend/crud/redirect_delete.php?num_doc_apr=<?php echo $register['num_doc_apr']; ?>" class="crud_anchor_opt">
                                     <img src="../assets/img/crud_icons/delete.png" alt="delete_icon" class="crud_opt_icons">
                                 </a>
                             </td>

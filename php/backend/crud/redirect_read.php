@@ -18,5 +18,5 @@ if ($_GET) {
     $_SESSION['crud_option'] = 'read';
 
     // Calls the function to send data through the get method and redirect to the final URL
-    send_data_get('http://localhost/formulario-censo/php/main_admin.php?', $num_doc_apr);
+    send_data_get('http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/main_admin.php?', $num_doc_apr);
 }

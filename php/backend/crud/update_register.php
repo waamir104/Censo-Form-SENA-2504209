@@ -118,11 +118,11 @@ if ($_POST) {
         );
 
         // Redirect the user to the read section with the updated register
-        send_data_get('http://localhost/formulario-censo/php/backend/crud/redirect_read.php?', $num_doc_apr);
+        send_data_get('http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/backend/crud/redirect_read.php?', $num_doc_apr);
         die();
     } else {
         $_SESSION['error_update'] = 'active';
-        setcookie('error_update_msg', 'active', time() + 60, '/formulario-censo/php/messages/error_form.php');
+        setcookie('error_update_msg', 'active', time() + 60, '/proyectos%20personales/programas%20php/formulario-censo/php/messages/error_form.php');
         header('location: ../../messages/crud/error_update_msg.php');
         die();
     }

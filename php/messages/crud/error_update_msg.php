@@ -10,7 +10,7 @@ if (!isset($_SESSION['error_update'])
     session_unset();
     session_destroy();
     // Follows to the index.php file
-    header('location: ../index.php');
+    header('location: ../../main_admin.php');
     die();
 }
 ?>

@@ -10,7 +10,7 @@ if (!isset($_SESSION['double_register'])
     session_unset();
     session_destroy();
     // Follows to the index.php file
-    header('location: ../index.php');
+    header('location: ../../index.php');
     die();
 }
 

@@ -15,5 +15,5 @@ if ($_GET) {
     $_SESSION['confirm_update'] = 'active';
 
     // Send data to a url and redirect the user to the final URL
-    send_data_get('http://localhost/formulario-censo/php/messages/crud/confirm_delete.php?', $num_doc_apr);
+    send_data_get('http://localhost/proyectos%20personales/programas%20php/formulario-censo/php/messages/crud/confirm_delete.php?', $num_doc_apr);
 }

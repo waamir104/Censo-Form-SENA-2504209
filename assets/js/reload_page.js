@@ -4,5 +4,5 @@
 
 // Set time to reload the page
 setTimeout(() => {
-    location.reload();
+    window.location.replace("http://localhost/proyectos%20personales/programas%20php/formulario-censo/index.php");
 }, 90*1000);
