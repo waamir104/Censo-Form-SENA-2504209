@@ -179,8 +179,6 @@ In this case the aplication will display the Login Page where the Administrator 
 
 - User Name 
 - Password
-<br>
-<br>
 
 <div align="center">
 <img src="assets/img/readme/Error_SS_Form/Login-SS.JPG" alt="Login Screenshot">
@@ -221,7 +219,6 @@ In this space the administrator user will be able to keep track and manage the r
 - ID number in blue: This is an anchor that will redirect the user to the read section where all the selected apprentice's information will be displayed on but the input fields cannot be modified.
 - Update icon in green: This is an anchor that will redirect the user to the update section where all the apprentice's information will be displayed on and most of the input fields can be modified and these changes can saved if the changed values meet the requirements stablished [HERE!!](#usage-hotsprings)
 - Delete icon in red: This is an anchor that will redirect the user to a confirmation page that will show important information about the selected apprentice and two buttons one to confirm the deletion of the record and another one to cancel the deletion. After processing the user's choice they will be redirected to the apprenctice section.
-<br>
 <br>
 <br>
 
