@@ -3,11 +3,11 @@
 
 <h1 align="center" style="font-weight: 500;" id="censo-form-2504209">
     <div style="margin-bottom: 20px;">
-        <img style="width: 25px;" src="assets/img/readme/Form-Icon-image.png" alt="Form Icon">
+        <img style="width: 25px;" src="README_resources/Form-Icon-image.png" alt="Form Icon">
         CENSO - FORM - 2504209
-        <img style="width: 25px;" src="assets/img/readme/Form-Icon-image.png" alt="Form Icon">
+        <img style="width: 25px;" src="README_resources/Form-Icon-image.png" alt="Form Icon">
     </div>
-    <img src="assets/img/readme/Form Screenshot.JPG" alt="Form Screenshot" style="border-radius: 10px; margin-top: 15px;">
+    <img src="README_resources/Form Screenshot.JPG" alt="Form Screenshot" style="border-radius: 10px; margin-top: 15px;">
 </h1>
 
 <p align="center">
@@ -99,41 +99,32 @@ Examples:
 
 When a input marked as required is not filled in this message will be shown.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Empty-Error.JPG" alt="Empty Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/Empty-Error.JPG" alt="Empty Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ### `Wrong email format` 
 <br>
 
 When the email input field does not meet the email format requierments (myemail@domain.com) this message will be shown.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Email-Error.JPG" alt="Email Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/Email-Error.JPG" alt="Email Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ### `Missing ID numbers` 
 <br>
 
 The least quantity of digits in the ID field is 8, if the ID entered has less digits this message will be shown. 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/ID-Error.JPG" alt="ID Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/ID-Error.JPG" alt="ID Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ### `Missing numbers of Mobile phone number` 
 <br>
 
 In the Mobile Phone Number input field can be entered Landline numbers (7 digits) and Mobile Phone Numbers (10 digits), any different quantity of digits will display this message.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/MPN-Error.JPG" alt="Mobile Phone Number Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/MPN-Error.JPG" alt="Mobile Phone Number Error Form Msg" style="margin: 10px 0 10px 0; border-radius: 10px;">
 </div>
-
-<br>
-<br>
 
 ## Sending the Information :rocket:
 
@@ -148,30 +139,24 @@ Here are the possible messages:
 
 This message will appear when the register successfully stored the apprentice data in the database.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/success.JPG" alt="Success Msg" style="border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/success.JPG" alt="Success Msg" style="border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ### `Double Register` 
 <br>
 
 This messages will be shown when the apprentice's ID number is already registered in the database and will not alterate the record that's already in the database.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/double-register.JPG" alt="Double Register Msg" style="border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/double-register.JPG" alt="Double Register Msg" style="border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ### `Error` 
 <br>
 
 This messages will be displayed when an error occurs at the moment of the execution of the SQL query.
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Error.JPG" alt="Error Msg" style="border-radius: 10px;">
+<img src="README_resources/Error_SS_Form/Error.JPG" alt="Error Msg" style="border-radius: 10px;">
 </div>
-<br>
-<br>
 
 ## Administrator User Login :exclamation: :exclamation:
 
@@ -181,7 +166,7 @@ In this case the aplication will display the Login Page where the Administrator 
 - Password
 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Login-SS.JPG" alt="Login Screenshot">
+<img src="README_resources/Error_SS_Form/Login-SS.JPG" alt="Login Screenshot">
 </div>
 
 These data are provided by the Owner of this program and can be changed by the same person.
@@ -196,10 +181,8 @@ When trying to log into the Administrators section, two errors can occur, which 
 This message will appear when the user name or password entered are different than the ones registered in the database.
 
 <div align="center" >
-<img src="assets/img/readme/Error_SS_Form/Login-Error-1.JPG" alt="Login-Error-1">
+<img src="README_resources/Error_SS_Form/Login-Error-1.JPG" alt="Login-Error-1">
 </div>
-<br>
-<br>
 
 ### `Database Error` 
 <br>
@@ -207,10 +190,8 @@ This message will appear when the user name or password entered are different th
 This error will be shown when there's been an error during the execution of the query or during the connection to the database.
 
 <div align="center">
-<img src="assets/img/readme/Error_SS_Form/Login-Error-2.JPG" alt="Login-Error-2">
+<img src="README_resources/Error_SS_Form/Login-Error-2.JPG" alt="Login-Error-2">
 </div>
-<br>
-<br>
 
 ## Administrator User CRUD Page :construction_worker:
 
@@ -226,7 +207,7 @@ In this space the administrator user will be able to keep track and manage the r
 <br>
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/apprentice-section.JPG" alt="Apprendice Section" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/apprentice-section.JPG" alt="Apprendice Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Read Section` 
@@ -235,13 +216,13 @@ In this space the administrator user will be able to keep track and manage the r
 This section looks like this because no records have been searched.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/read-section.JPG" alt="Read 1 Section" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/read-section.JPG" alt="Read 1 Section" style="margin-bottom: 15px;">
 </div>
 
 Now, one record has been searched and the information is being displayed on.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/read-section-data.JPG" alt="Read 2 Section" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/read-section-data.JPG" alt="Read 2 Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Update Section` 
@@ -250,20 +231,20 @@ Now, one record has been searched and the information is being displayed on.
 This section looks like this because no records have been searched.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/update-section.JPG" alt="Update 1 Section" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/update-section.JPG" alt="Update 1 Section" style="margin-bottom: 15px;">
 </div>
 
 Now, one record has been searched and the information is being displayed on.
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/update-section-data.JPG" alt="Update 2 Section" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/update-section-data.JPG" alt="Update 2 Section" style="margin-bottom: 15px;">
 </div>
 
 ### `Delete Record` 
 <br>
 
 <div align="center">
-    <img src="assets/img/readme/CRUD/delete-confirmation.JPG" alt="Delete Confirmation Msg" style="margin-bottom: 15px;">
+    <img src="README_resources/CRUD/delete-confirmation.JPG" alt="Delete Confirmation Msg" style="margin-bottom: 15px;">
 </div>
 
 # :computer: Tecnologies
